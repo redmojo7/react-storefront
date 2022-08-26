@@ -123,7 +123,7 @@ In this example, we'll only build `apps/saleor-app-checkout`
 Create a tunnel for `saleor-app-checkout`:
 
 ```bash
-cd apps/saleor-app-checkout && npx saleor app tunnel 3001
+cd apps/saleor-app-checkout && npx saleor app tunnel 3008
 ```
 
 > Note: the process needs to be running in the background
@@ -267,8 +267,8 @@ Read FAQ in [docs/faq.md](./docs/faq.md)
 
 ## Ports
 
-- apps/react-storefront: **http://localhost:3000**
-- apps/saleor-app-checkout: **http://localhost:3001**
+- apps/react-storefront: **http://localhost:3001**
+- apps/saleor-app-checkout: **http://localhost:3008**
 - packages/checkout-storefront: **http://localhost:3002**
 - apps/checkout: **http://localhost:3003**
 - packages/ui-kit storybook: **http://localhost:6006**
